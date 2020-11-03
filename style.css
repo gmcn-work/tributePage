@@ -1,0 +1,80 @@
+#main
+{
+  background-color: #77B2F6;
+  padding-bottom: 1px;
+}
+
+#title
+{
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+}
+
+#img-div
+{
+  display: flex;
+  width: 332;
+  height: 427;
+  flex-direction: column; 
+}
+
+#image
+{
+  max-width: 90%;
+  height: auto;
+  align-self: center;
+  justify-content: center;
+}
+#img-caption
+{
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+#tribute-info
+{
+  border-radius: 1%;
+  margin: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 20px;
+  padding: 5px 40px 10px 40px; 
+  background-color: #B3CDEC;
+}
+
+#tribute-link
+{
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  margin: 5px 40px 10px 40px;
+}
+
+h2
+{
+  display: flex;
+  justify-content: center;
+}
+
+li
+{
+  margin: 6px 6px;
+}
+
+a:link
+{
+  color: dark-blue;
+  text-decoration: none;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+a:visited
+{
+  color: grey-blue;
+}
